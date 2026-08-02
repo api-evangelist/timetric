@@ -1,0 +1,34 @@
+generated: '2026-07-21'
+method: searched
+source: https://pypi.org/pypi/timetric/json
+name: Timetric Packages
+description: Client packages for the Timetric time-series data platform API. Timetric
+  was acquired by GlobalData in March 2018 and the API is no longer operating; the
+  only published client is a historical third-party Python library. Registry checks
+  for npm (404) and RubyGems (404) found no packages. The github.com/timetric
+  account published five open-source utility repos (django-sagepay, py-sftp-server,
+  python-metar, python-openxml, raphlot), none of which are API clients.
+packages:
+- name: timetric
+  registry: pypi
+  url: https://pypi.org/project/timetric/
+  repository: https://github.com/jacobian/timetric
+  language: Python
+  official: false
+  author: Jacob Kaplan-Moss
+  latest_version: '1.3'
+  latest_release: '2009-06-11'
+  status: archived
+  notes: Third-party Python client for the historical Timetric API; supported OAuth
+    and API-token authentication for reading, updating, and clearing time series.
+    Repository archived; last push 2009-06-11.
+registries_checked:
+- registry: npm
+  package: timetric
+  status: 404
+- registry: rubygems
+  package: timetric
+  status: 404
+- registry: pypi
+  package: timetric
+  status: 200

@@ -1,0 +1,16 @@
+# Timetric
+
+> Timetric was a London-based data platform founded in 2008 for publishing, analysing, and performing calculations on large quantities of time-varying statistical data, later providing online market data, analysis, and advisory services to the insurance, construction, and infrastructure sectors. Timetric was acquired by GlobalData in March 2018; timetric.com now redirects to globaldata.com and the Timetric API no longer operates.
+
+Timetric was backed by Anthemis and is profiled in the API Evangelist network as a historical (acquired/defunct) company. The Timetric Platform exposed an API with OAuth and API-token authentication for creating, reading, and updating time series; the only published client was a third-party Python library.
+
+## Historical resources
+
+- [Timetric website (redirects to GlobalData)](https://www.timetric.com): Former company website, 301 to globaldata.com
+- [Python client (third-party)](https://pypi.org/project/timetric/): Archived PyPI client by Jacob Kaplan-Moss, last release 2009
+- [Client source](https://github.com/jacobian/timetric): Archived GitHub repository for the Python client
+- [Timetric open source](https://github.com/timetric): Timetric's historical open-source utility repos
+
+## Profile
+
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/timetric/refs/heads/main/apis.yml): API Evangelist machine-readable profile for Timetric

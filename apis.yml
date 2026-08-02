@@ -1,7 +1,24 @@
 aid: timetric
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/timetric.png
 name: Timetric
-description: Timetric is a company surfaced as a portfolio company of anthemis and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Timetric was a London-based data platform founded in 2008 for publishing,
+  analysing, and performing calculations on large quantities of time-varying statistical
+  data, later providing online market data, analysis, and advisory services to the
+  insurance, construction, and infrastructure sectors. The Timetric Platform exposed
+  an API with OAuth and API-token authentication for creating and updating time
+  series. Timetric was acquired by GlobalData in March 2018 and timetric.com now
+  redirects to globaldata.com; the company no longer operates independently.
 url: https://raw.githubusercontent.com/api-evangelist/timetric/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +26,46 @@ x-backed-by:
 - anthemis
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: globaldata
+x-acquired-date: '2018-03-29'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Data
+- Time Series
+- Analytics
+- Market Research
+- Financial Data
+- Defunct
 apis: []
+common:
+- type: DomainSecurity
+  url: security/timetric-domain-security.yml
+- name: Website (historical, redirects to GlobalData)
+  type: Website
+  url: https://www.timetric.com
+- name: Timetric Packages
+  type: Packages
+  url: packages/timetric-packages.yml
+- name: Timetric Well-Known Endpoints
+  type: WellKnown
+  url: well-known/timetric-well-known.yml
+- name: Timetric llms.txt
+  type: LLMsTxt
+  url: llms/timetric-llms.txt
+- name: Timetric on GitHub (historical open source)
+  type: GitHubOrganization
+  url: https://github.com/timetric
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1

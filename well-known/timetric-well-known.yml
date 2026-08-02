@@ -1,0 +1,30 @@
+generated: '2026-07-21'
+method: probed
+source: live HTTP probes of https://timetric.com
+name: Timetric Well-Known Endpoints
+description: Probe of standard /.well-known/ paths on timetric.com. The domain 301
+  redirects every path to https://www.globaldata.com/ (Timetric was acquired by
+  GlobalData in March 2018), so no Timetric-owned well-known resources exist. No
+  raw files saved because no path returned 200 on the Timetric host.
+host: timetric.com
+endpoints:
+- path: /.well-known/security.txt
+  status: 301
+  redirect: https://www.globaldata.com/
+  file: null
+- path: /.well-known/openid-configuration
+  status: 301
+  redirect: https://www.globaldata.com/
+  file: null
+- path: /.well-known/oauth-authorization-server
+  status: 301
+  redirect: https://www.globaldata.com/
+  file: null
+- path: /.well-known/api-catalog
+  status: 301
+  redirect: https://www.globaldata.com/
+  file: null
+- path: /.well-known/ai-plugin.json
+  status: 301
+  redirect: https://www.globaldata.com/
+  file: null
