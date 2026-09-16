@@ -23,13 +23,12 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/timetric.png
 name: Timetric
-description: Timetric was a London-based data platform founded in 2008 for publishing,
-  analysing, and performing calculations on large quantities of time-varying statistical
-  data, later providing online market data, analysis, and advisory services to the
-  insurance, construction, and infrastructure sectors. The Timetric Platform exposed
-  an API with OAuth and API-token authentication for creating and updating time
-  series. Timetric was acquired by GlobalData in March 2018 and timetric.com now
-  redirects to globaldata.com; the company no longer operates independently.
+description: Timetric was a London-based data platform founded in 2008 for publishing, analysing, and
+  performing calculations on large quantities of time-varying statistical data, later providing online
+  market data, analysis, and advisory services to the insurance, construction, and infrastructure sectors.
+  The Timetric Platform exposed an API with OAuth and API-token authentication for creating and updating
+  time series. Timetric was acquired by GlobalData in March 2018 and timetric.com now redirects to globaldata.com;
+  the company no longer operates independently.
 url: https://raw.githubusercontent.com/api-evangelist/timetric/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -37,12 +36,12 @@ x-backed-by:
 - anthemis
 x-tier: stub
 x-tier-reason: portfolio-lead
-x-status: acquired
+x-status: defunct
 x-acquired-by: globaldata
 x-acquired-date: '2018-03-29'
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-09-15'
 tags:
 - Company
 - Data
